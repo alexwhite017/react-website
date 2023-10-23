@@ -2,6 +2,7 @@ import { SocialIcon } from "react-social-icons/component";
 import "react-social-icons/github";
 import "react-social-icons/linkedin";
 import { Link } from "react-router-dom";
+import resume from "/resources/resume.pdf";
 const Intro = () => {
   return (
     <div className="relative flex items-center justify-center h-screen w-full">
@@ -35,7 +36,7 @@ const Intro = () => {
             <Link
               className="flex gap-x-2 rounded-full border-2 bg-none px-4 py-2 text-sm font-medium text-white ring-offset-gray-700/80 hover:bg-gray-700/80 focus:outline-none focus:ring-2 focus:ring-offset-2 sm:text-base
                     border-orange-500 ring-orange-500"
-              to="/resources/resume-final.pdf"
+              to={resume}
               target="_blank"
               download
             >
