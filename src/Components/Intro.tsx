@@ -27,8 +27,11 @@ const Intro = () => {
             <strong className="text-stone-100">Dungeons and Dragons</strong>.
           </p>{" "}
           <div className="flex flex-col-2 gap-x-4 ">
-            <SocialIcon url="https://github.com/alexwhite017" />
-            <SocialIcon url="https://www.linkedin.com/in/alex-l-white/" />
+            <SocialIcon url="https://github.com/alexwhite017" target="_blank" />
+            <SocialIcon
+              url="https://www.linkedin.com/in/alex-l-white/"
+              target="_blank"
+            />
             <Link
               className="flex gap-x-2 rounded-full border-2 bg-none px-4 py-2 text-sm font-medium text-white ring-offset-gray-700/80 hover:bg-gray-700/80 focus:outline-none focus:ring-2 focus:ring-offset-2 sm:text-base
                     border-orange-500 ring-orange-500"
