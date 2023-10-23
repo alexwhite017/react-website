@@ -7,7 +7,7 @@ const Portfolio = () => {
         </h2>
         <div className="relative mx-auto h-max max-w-screen-lg overflow-hidden rounded-lg shadow-lg shadow-black/30 lg:shadow-xl">
           <img
-            src="/resources/fetch.png"
+            src="/resources/fetch.jpeg"
             className="block h-full w-full rounded-lg object-cover object-center"
             alt="Fetch"
           />
