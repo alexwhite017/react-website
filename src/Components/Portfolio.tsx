@@ -1,3 +1,4 @@
+import fetch from "/resources/fetch.jpg";
 const Portfolio = () => {
   return (
     <div id="Portfolio" className="bg-neutral-800 px-4 py-16 md:py-24 lg:px-8">
@@ -7,7 +8,7 @@ const Portfolio = () => {
         </h2>
         <div className="relative mx-auto h-max max-w-screen-lg overflow-hidden rounded-lg shadow-lg shadow-black/30 lg:shadow-xl">
           <img
-            src="/resources/fetch.jpg"
+            src={fetch}
             className="block h-full w-full rounded-lg object-cover object-center"
             alt="Fetch"
           />
