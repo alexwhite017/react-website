@@ -34,7 +34,7 @@ const Intro = () => {
               target="_blank"
             />
             <Link
-              className="flex gap-x-2 rounded-full border-2 bg-none px-4 py-2 text-sm font-medium text-white ring-offset-gray-700/80 hover:bg-gray-700/80 focus:outline-none focus:ring-2 focus:ring-offset-2 sm:text-base
+              className="flex m-auto gap-x-2 rounded-full border-2 bg-none px-4 py-2 text-sm font-medium text-white ring-offset-gray-700/80 hover:bg-gray-700/80 focus:outline-none focus:ring-2 focus:ring-offset-2 sm:text-base
                     border-orange-500 ring-orange-500"
               to={resume}
               target="_blank"

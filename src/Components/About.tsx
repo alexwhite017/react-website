@@ -32,7 +32,7 @@ const About = () => {
               </li>
               <li className="col-span-1 flex  items-start gap-x-2" key="key">
                 <span className="text-sm font-bold text-white">Age:</span>
-                <span className=" text-sm text-gray-400">24</span>
+                <span className=" text-sm text-gray-400">25</span>
               </li>
               <li className="col-span-1 flex  items-start gap-x-2" key="key">
                 <span className="text-sm font-bold text-white">Study:</span>
