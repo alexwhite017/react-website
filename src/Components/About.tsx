@@ -1,4 +1,5 @@
 import profile from "/resources/profile.jpg";
+import profile2 from "/resources/IMG_2817.jpeg";
 const About = () => {
   return (
     <div id="About" className="bg-neutral-800 px-4 py-16 md:py-24 lg:px-8">
@@ -8,7 +9,7 @@ const About = () => {
             <div className="relative h-24 w-24 overflow-hidden rounded-xl md:h-32 md:w-32">
               <img
                 className="h-full w-full object-cover"
-                src={profile}
+                src={profile2}
                 alt="Logo"
               />
               ;
@@ -32,10 +33,12 @@ const About = () => {
               </li>
               <li className="col-span-1 flex  items-start gap-x-2" key="key">
                 <span className="text-sm font-bold text-white">Age:</span>
-                <span className=" text-sm text-gray-400">25</span>
+                <span className=" text-sm text-gray-400">26</span>
               </li>
               <li className="col-span-1 flex  items-start gap-x-2" key="key">
-                <span className="text-sm font-bold text-white">Study:</span>
+                <span className="text-sm font-bold text-white">
+                  Place of Study:
+                </span>
                 <span className=" text-sm text-gray-400">
                   Auburn University
                 </span>

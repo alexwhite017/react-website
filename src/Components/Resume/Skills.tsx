@@ -26,6 +26,10 @@ const Skills = () => {
             <li className="text-neutral-500">React</li>
             <li className="text-neutral-500">TypeScript</li>
             <li className="text-neutral-500">Tailwind CSS</li>
+            <li className="text-neutral-500">PHP</li>
+            <li className="text-neutral-500">SQL</li>
+            <li className="text-neutral-500">Laravel</li>
+            <li className="text-neutral-500">WordPress</li>
           </ol>
         </div>
       </div>

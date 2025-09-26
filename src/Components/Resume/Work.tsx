@@ -38,6 +38,66 @@ const Work = () => {
             </li>
           </ol>
         </div>
+
+        <div className="flex flex-col pb-8 text-center last:pb-0 md:text-left">
+          <div className="flex flex-col pb-4">
+            <h2 className="text-xl font-bold">Riverchase Country Club</h2>
+            <div className="flex items-center justify-center gap-x-2 md:justify-start">
+              <span className="flex-1 text-sm font-medium italic sm:flex-none">
+                Server/Bartender
+              </span>
+              <span>•</span>
+              <span className="flex-1 text-sm sm:flex-none">
+                April 2023 - April 2025
+              </span>
+            </div>
+          </div>
+          <ol
+            style={{ listStyleType: "circle" }}
+            className="grid grid-cols-1 gap-4"
+          >
+            <li className="text-neutral-500">
+              Worked in a fast paced environment providing excellent customer
+              service.
+            </li>
+            <li className="text-neutral-500">
+              Required to multi-task and work well under pressure.
+            </li>
+            <li className="text-neutral-500">
+              Learned people skills and how to work well with a team.
+            </li>
+          </ol>
+        </div>
+
+        <div className="flex flex-col pb-8 text-center last:pb-0 md:text-left">
+          <div className="flex flex-col pb-4">
+            <h2 className="text-xl font-bold">Kinetic Communications</h2>
+            <div className="flex items-center justify-center gap-x-2 md:justify-start">
+              <span className="flex-1 text-sm font-medium italic sm:flex-none">
+                Developer Intern
+              </span>
+              <span>•</span>
+              <span className="flex-1 text-sm sm:flex-none">
+                August 2025 - Current
+              </span>
+            </div>
+          </div>
+          <ol
+            style={{ listStyleType: "circle" }}
+            className="grid grid-cols-1 gap-4"
+          >
+            <li className="text-neutral-500">
+              Designed and implemented new features for client websites using a
+              variety of web technologies
+            </li>
+            <li className="text-neutral-500">
+              Worked on custom WordPress themes and plugins.
+            </li>
+            <li className="text-neutral-500">
+              Worked in a team environment using Agile methodologies.
+            </li>
+          </ol>
+        </div>
       </div>
     </div>
   );
