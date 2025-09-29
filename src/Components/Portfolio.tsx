@@ -1,6 +1,7 @@
 import fetch from "/resources/fetch.jpg";
 import interiorscapes from "/resources/interiorscapes.png";
 import PortfolioItem from "./PortfolioItem";
+import pokeapi from "/resources/pokeapi.png";
 const Portfolio = () => {
   return (
     <div id="Portfolio" className="bg-neutral-800 px-4 py-16 md:py-24 lg:px-8">
@@ -20,6 +21,12 @@ const Portfolio = () => {
           title="Interiorscapes Mockup"
           description="This is a mockup of a website for Interiorscapes, a company that provides interior landscaping services. The website was built using React, and TailwindCSS."
           link="https://interiorscapes-mockup.vercel.app"
+        />
+        <PortfolioItem
+          image={pokeapi}
+          title="PokeAPI"
+          description="This is a simple app that allows you to search for Pokemon and view their details. It was built using React and TailwindCSS and interacts with the Pokemon API."
+          link="https://pokeapiv2.vercel.app"
         />
       </div>
     </div>
