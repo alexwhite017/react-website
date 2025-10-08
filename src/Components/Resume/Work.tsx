@@ -57,14 +57,17 @@ const Work = () => {
             className="grid grid-cols-1 gap-4"
           >
             <li className="text-neutral-500">
-              Worked in a fast paced environment providing excellent customer
-              service.
+              Delivered high-quality food and beverage service in a fast-paced,
+              upscale environment, ensuring a positive and memorable experience
+              for members and guests.
             </li>
             <li className="text-neutral-500">
-              Required to multi-task and work well under pressure.
+              Support banquets, golf tournaments, weddings, and private events
+              through efficient setup, service, and breakdown.
             </li>
             <li className="text-neutral-500">
-              Learned people skills and how to work well with a team.
+              Developed exceptional interpersonal and communication skills
+              through daily interaction with a diverse membership base.
             </li>
           </ol>
         </div>
@@ -87,14 +90,17 @@ const Work = () => {
             className="grid grid-cols-1 gap-4"
           >
             <li className="text-neutral-500">
-              Designed and implemented new features for client websites using a
-              variety of web technologies
+              Worked on a variety of WP sites and Custom WordPress themes with
+              different technologies such as Laravel and React
             </li>
             <li className="text-neutral-500">
-              Worked on custom WordPress themes and plugins.
+              Gained hands-on experience with version control (Git) and agile
+              development workflows to support efficient project delivery.
             </li>
             <li className="text-neutral-500">
-              Worked in a team environment using Agile methodologies.
+              Assusted in front-end development using HTML, CSS, JavaScript, and
+              modern frameworks to enhance user experience and interface
+              functionality
             </li>
           </ol>
         </div>
