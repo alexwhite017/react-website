@@ -2,7 +2,7 @@ import { SocialIcon } from "react-social-icons/component";
 import "react-social-icons/github";
 import "react-social-icons/linkedin";
 import { Link } from "react-router-dom";
-import resume from "/resources/resume.pdf";
+import resume from "/resources/resume-updated.pdf";
 const Intro = () => {
   return (
     <div className="relative flex items-center justify-center h-screen w-full">
