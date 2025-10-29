@@ -17,12 +17,6 @@ const Portfolio = () => {
           link="https://fetch-final.vercel.app"
         />
         <PortfolioItem
-          image={interiorscapes}
-          title="Interiorscapes Mockup"
-          description="This is a mockup of a website for Interiorscapes, a company that provides interior landscaping services. The website was built using React, and TailwindCSS."
-          link="https://interiorscapes-mockup.vercel.app"
-        />
-        <PortfolioItem
           image={pokeapi}
           title="PokeAPI"
           description="This is a simple app that allows you to search for Pokemon and view their details. It was built using React and TailwindCSS and interacts with the Pokemon API."
