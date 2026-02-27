@@ -1,6 +1,6 @@
 import fetch from "/resources/fetch.jpg";
 import PortfolioItem from "./PortfolioItem";
-import pokeapi from "/resources/pokeapi.png";
+import pokeapi from "/resources/PokeAPI-Home-Page.png";
 
 const Portfolio = () => {
   return (
