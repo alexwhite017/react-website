@@ -1,4 +1,3 @@
-import profile from "/resources/profile.jpg";
 import profile2 from "/resources/IMG_2817.jpeg";
 const About = () => {
   return (
@@ -10,7 +9,7 @@ const About = () => {
               <img
                 className="h-full w-full object-cover"
                 src={profile2}
-                alt="Logo"
+                alt="Alex White"
               />
             </div>
           </div>
@@ -18,11 +17,13 @@ const About = () => {
             <div className="flex flex-col gap-y-2">
               <h2 className="text-2xl font-bold text-white">About me</h2>
               <p className="max-w-prose text-gray-400 sm:leading-7">
-                My name is Alex White and I am a Software Engineer that
-                graduated from Auburn University. I have a passion for creating
-                something new and innovative. I have the most experience working
-                as a Front-End Developer. I'm an outgoing personality and easy
-                to work with in a team setting.
+                I'm a Front End Software Engineer based in Birmingham, AL with a
+                focus on building clean, responsive web experiences. At Kinetic
+                Communications I develop custom WordPress themes and full-stack
+                applications using Laravel and PHP. Outside of work I build
+                projects with React and TypeScript. I'm a 2022 Auburn University
+                graduate who enjoys turning complex problems into intuitive
+                interfaces.
               </p>
             </div>
             <ul className="grid grid-cols-1 gap-4 sm:grid-cols-2">

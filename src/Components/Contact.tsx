@@ -1,3 +1,7 @@
+import { SocialIcon } from "react-social-icons/component";
+import "react-social-icons/github";
+import "react-social-icons/linkedin";
+
 const Contact = () => {
   return (
     <div id="Contact" className="bg-neutral-900 px-4 py-16 md:py-24 lg:px-8">
@@ -14,6 +18,13 @@ const Contact = () => {
           Say Hello
         </a>
         <p className="text-sm text-gray-500">alex.white017@gmail.com</p>
+        <div className="flex gap-x-4">
+          <SocialIcon url="https://github.com/alexwhite017" target="_blank" />
+          <SocialIcon
+            url="https://www.linkedin.com/in/alex-l-white/"
+            target="_blank"
+          />
+        </div>
       </div>
     </div>
   );
