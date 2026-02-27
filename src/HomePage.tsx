@@ -1,4 +1,5 @@
 import About from "./Components/About";
+import Contact from "./Components/Contact";
 import Intro from "./Components/Intro";
 import NavBar from "./Components/NavBar";
 import Portfolio from "./Components/Portfolio";
@@ -12,6 +13,7 @@ const HomePage = () => {
       <About />
       <Resume />
       <Portfolio />
+      <Contact />
     </div>
   );
 };

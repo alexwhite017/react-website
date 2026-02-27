@@ -31,6 +31,15 @@ const NavBar = () => {
               Portfolio
             </Link>
           </li>
+          <li>
+            <Link
+              smooth
+              to="#Contact"
+              className="-m-1.5 p-1.5 rounded-md font-bold first-letter:uppercase hover:transition-colors hover:duration-300 focus:outline-none focus-visible:ring-2 focus-visible:ring-orange-500 sm:hover:text-orange-500 text-neutral-100"
+            >
+              Contact
+            </Link>
+          </li>
         </ul>
       </nav>
     </header>

@@ -1,7 +1,7 @@
 import fetch from "/resources/fetch.jpg";
-import interiorscapes from "/resources/interiorscapes.png";
 import PortfolioItem from "./PortfolioItem";
 import pokeapi from "/resources/pokeapi.png";
+
 const Portfolio = () => {
   return (
     <div id="Portfolio" className="bg-neutral-800 px-4 py-16 md:py-24 lg:px-8">
@@ -13,14 +13,18 @@ const Portfolio = () => {
         <PortfolioItem
           image={fetch}
           title="Fetch App"
-          description="This is a simple app that allows you to search for dogs based on a variety of different filters. You can select dogs from the list to choose which ones to adopt! It was built using React, TypeScript, and TailwindCSS. Due to Chromium cookie changes, the app may have limited functionality in some browsers."
+          description="A dog adoption search app with multi-filter search and match generation. Fetches live data from an authenticated API, handles browser cookie restrictions across Chromium browsers, and provides a seamless flow from search to adoption match."
           link="https://fetch-final.vercel.app"
+          githubLink="https://github.com/alexwhite017/fetch-final"
+          tags={["React", "TypeScript", "TailwindCSS"]}
         />
         <PortfolioItem
           image={pokeapi}
           title="PokeAPI"
-          description="This is a simple app that allows you to search for Pokemon and view their details. It was built using React and TailwindCSS and interacts with the Pokemon API."
+          description="A Pokémon search and discovery app that lets you look up any Pokémon and view their detailed stats, types, and abilities. Consumes the public PokéAPI to serve real-time data."
           link="https://pokeapiv2.vercel.app"
+          githubLink="https://github.com/alexwhite017/pokeapiv2"
+          tags={["React", "TailwindCSS"]}
         />
       </div>
     </div>
