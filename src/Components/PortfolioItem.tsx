@@ -24,7 +24,7 @@ const PortfolioItem = ({ image, title, description, link, githubLink, tags }: Po
             {tags.map((tag) => (
               <span
                 key={tag}
-                className="rounded-full bg-orange-500/20 px-2 py-0.5 text-xs font-medium text-orange-300"
+                className="rounded-full bg-blue-500/20 px-2 py-0.5 text-xs font-medium text-blue-300"
               >
                 {tag}
               </span>
@@ -46,7 +46,7 @@ const PortfolioItem = ({ image, title, description, link, githubLink, tags }: Po
               href={githubLink}
               target="_blank"
               rel="noreferrer"
-              className="rounded-full border border-orange-400 px-4 py-1.5 text-xs font-medium text-orange-400 transition-colors duration-200 hover:bg-orange-400 hover:text-gray-900"
+              className="rounded-full border border-blue-400 px-4 py-1.5 text-xs font-medium text-blue-400 transition-colors duration-200 hover:bg-blue-400 hover:text-gray-900"
             >
               View Code
             </a>

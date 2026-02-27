@@ -9,7 +9,7 @@ const navLinks = [
 ];
 
 const linkClass =
-  "-m-1.5 p-1.5 rounded-md font-bold hover:transition-colors hover:duration-300 focus:outline-none focus-visible:ring-2 focus-visible:ring-orange-500 hover:text-orange-500 text-neutral-100";
+  "-m-1.5 p-1.5 rounded-md font-bold hover:transition-colors hover:duration-300 focus:outline-none focus-visible:ring-2 focus-visible:ring-blue-500 hover:text-blue-500 text-neutral-100";
 
 const NavBar = () => {
   const [menuOpen, setMenuOpen] = useState(false);

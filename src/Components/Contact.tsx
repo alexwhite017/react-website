@@ -13,7 +13,7 @@ const Contact = () => {
         </p>
         <a
           href="mailto:alex.white017@gmail.com"
-          className="rounded-full border-2 border-orange-500 px-6 py-2 text-sm font-medium text-white transition-colors duration-300 hover:bg-orange-500 focus:outline-none focus:ring-2 focus:ring-orange-500 focus:ring-offset-2 focus:ring-offset-neutral-900"
+          className="rounded-full border-2 border-blue-500 px-6 py-2 text-sm font-medium text-white transition-colors duration-300 hover:bg-blue-500 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 focus:ring-offset-neutral-900"
         >
           Say Hello
         </a>
