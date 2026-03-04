@@ -4,10 +4,12 @@ interface PortfolioItemProps {
   description: string;
   link: string;
   githubLink?: string;
+  githubLink2?: string;
+  githubLink2Label?: string;
   tags?: string[];
 }
 
-const PortfolioItem = ({ image, title, description, link, githubLink, tags }: PortfolioItemProps) => {
+const PortfolioItem = ({ image, title, description, link, githubLink, githubLink2, githubLink2Label, tags }: PortfolioItemProps) => {
   return (
     <div className="flex flex-col overflow-hidden rounded-lg bg-gray-800 shadow-lg shadow-black/30 lg:shadow-xl">
       <div className="h-48 overflow-hidden">
@@ -32,12 +34,12 @@ const PortfolioItem = ({ image, title, description, link, githubLink, tags }: Po
           </div>
         )}
         <p className="flex-1 text-sm text-gray-300">{description}</p>
-        <div className="mt-auto flex gap-x-3 pt-2">
+        <div className="mt-auto flex flex-nowrap gap-x-2 pt-2">
           <a
             href={link}
             target="_blank"
             rel="noreferrer"
-            className="rounded-full border border-white px-4 py-1.5 text-xs font-medium text-white transition-colors duration-200 hover:bg-white hover:text-gray-900"
+            className="whitespace-nowrap rounded-full border border-white px-3 py-1.5 text-xs font-medium text-white transition-colors duration-200 hover:bg-white hover:text-gray-900"
           >
             Live Demo
           </a>
@@ -46,9 +48,19 @@ const PortfolioItem = ({ image, title, description, link, githubLink, tags }: Po
               href={githubLink}
               target="_blank"
               rel="noreferrer"
-              className="rounded-full border border-blue-400 px-4 py-1.5 text-xs font-medium text-blue-400 transition-colors duration-200 hover:bg-blue-400 hover:text-gray-900"
+              className="whitespace-nowrap rounded-full border border-blue-400 px-3 py-1.5 text-xs font-medium text-blue-400 transition-colors duration-200 hover:bg-blue-400 hover:text-gray-900"
             >
               View Code
+            </a>
+          )}
+          {githubLink2 && (
+            <a
+              href={githubLink2}
+              target="_blank"
+              rel="noreferrer"
+              className="whitespace-nowrap rounded-full border border-blue-400 px-3 py-1.5 text-xs font-medium text-blue-400 transition-colors duration-200 hover:bg-blue-400 hover:text-gray-900"
+            >
+              {githubLink2Label ?? "View Code"}
             </a>
           )}
         </div>

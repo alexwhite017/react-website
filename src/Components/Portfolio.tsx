@@ -1,6 +1,7 @@
 import fetch from "/resources/fetch.jpg";
 import PortfolioItem from "./PortfolioItem";
 import pokeapi from "/resources/PokeAPI-Home-Page.png";
+import discGolf from "/resources/Disc-Golf-Tracker-Home-Page.png";
 
 const Portfolio = () => {
   return (
@@ -10,7 +11,7 @@ const Portfolio = () => {
           Selected Work
         </h2>
 
-        <div className="grid grid-cols-1 gap-6 md:grid-cols-2">
+        <div className="grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-3">
           <PortfolioItem
             image={fetch}
             title="Fetch App"
@@ -26,6 +27,16 @@ const Portfolio = () => {
             link="https://pokeapiv2.vercel.app"
             githubLink="https://github.com/alexwhite017/pokeapiv2"
             tags={["React", "TailwindCSS"]}
+          />
+          <PortfolioItem
+            image={discGolf}
+            title="Disc Golf Tracker"
+            description="A full-stack disc golf scoring app with multiplayer rounds, course management, a disc bag, leaderboards, and player stats. Built with a Laravel 12 REST API and a React frontend."
+            link="https://disc-golf-app-flame.vercel.app/"
+            githubLink="https://github.com/alexwhite017/disc-golf-app"
+            githubLink2="https://github.com/alexwhite017/disc-golf-api"
+            githubLink2Label="API Repo"
+            tags={["React", "TypeScript", "TailwindCSS", "Laravel", "PHP"]}
           />
         </div>
       </div>
