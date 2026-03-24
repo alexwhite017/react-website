@@ -2,6 +2,7 @@ import fetch from "/resources/fetch.jpg";
 import PortfolioItem from "./PortfolioItem";
 import pokeapi from "/resources/PokeAPI-Home-Page.png";
 import discGolf from "/resources/Disc-Golf-Tracker-Home-Page.png";
+import planner from "/resources/Planner-App-Home-Page.png";
 
 const Portfolio = () => {
   return (
@@ -12,6 +13,14 @@ const Portfolio = () => {
         </h2>
 
         <div className="grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-3">
+          <PortfolioItem
+            image={planner}
+            title="Planner App"
+            description="A full-stack personal planner with calendar views, task management with priorities and tags, event scheduling with multi-day support, recurring tasks, filtering, and dark mode. Token-based authentication with Sanctum."
+            link="https://planner-app-seven-psi.vercel.app/"
+            githubLink="https://github.com/alexwhite017/planner-app"
+            tags={["React", "TypeScript", "TailwindCSS", "Laravel", "PHP"]}
+          />
           <PortfolioItem
             image={fetch}
             title="Fetch App"
