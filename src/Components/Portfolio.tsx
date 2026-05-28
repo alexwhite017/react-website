@@ -4,6 +4,10 @@ import pokeapi from "/resources/PokeAPI-Home-Page.png";
 import discGolf from "/resources/Disc-Golf-Tracker-Home-Page.png";
 import planner from "/resources/Planner-App-Home-Page.png";
 
+// TODO: replace placeholders with real screenshots (Cocktail-App-Home-Page.png, Pokequiz-Home-Page.png)
+const cocktail = planner;
+const pokequiz = pokeapi;
+
 const Portfolio = () => {
   return (
     <div id="Portfolio" className="bg-neutral-800 px-4 py-16 md:py-24 lg:px-8">
@@ -46,6 +50,22 @@ const Portfolio = () => {
             githubLink2="https://github.com/alexwhite017/disc-golf-api"
             githubLink2Label="API Repo"
             tags={["React", "TypeScript", "TailwindCSS", "Laravel", "PHP"]}
+          />
+          <PortfolioItem
+            image={cocktail}
+            title="Home Bar"
+            description="A cocktail discovery app that recommends recipes from your bar inventory — categorizing drinks as ready to make, one ingredient away, or close. Includes smart 'what to buy next' suggestions, ingredient filtering, and dark mode."
+            link="https://homebar.xyz"
+            githubLink="https://github.com/alexwhite017/Home-Bar"
+            tags={["React", "TypeScript", "TailwindCSS", "Next.js", "Drizzle"]}
+          />
+          <PortfolioItem
+            image={pokequiz}
+            title="Pokequiz"
+            description="A Pokémon guessing game where players identify Pokémon from progressive hints — stat totals, types, generation, and sprites. Scoring adjusts based on hints used, with per-generation filtering and play history. Built with a Laravel REST API and React frontend."
+            link="https://pokequiz-brown.vercel.app"
+            githubLink="https://github.com/alexwhite017/pokequiz"
+            tags={["React", "TailwindCSS", "Laravel", "PHP"]}
           />
         </div>
       </div>
