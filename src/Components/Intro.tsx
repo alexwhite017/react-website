@@ -12,11 +12,9 @@ const Intro = () => {
             Alex White
           </h1>
           <p className="prose-sm sm:prose-base lg:prose-lg text-stone-200">
-            I'm a Birmingham based{" "}
-            <strong className="text-stone-100">
-              Front End Software Engineer
-            </strong>
-            , currently a{" "}
+            Birmingham based{" "}
+            <strong className="text-stone-100">full-stack developer</strong>{" "}
+            working with React, Laravel, and WordPress. Currently a{" "}
             <strong className="text-stone-100">Junior Developer</strong> at{" "}
             <strong className="text-stone-100">Kinetic Communications</strong>.
           </p>

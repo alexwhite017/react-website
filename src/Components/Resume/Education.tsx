@@ -20,12 +20,14 @@ const Education = () => {
                 Auburn University
               </span>
               <span>•</span>
-              <span className="flex-1 text-sm sm:flex-none">May 2022</span>
+              <span className="flex-1 text-sm sm:flex-none">
+                August 2017 – May 2022
+              </span>
             </div>
           </div>
           <p className="text-neutral-500">
             <strong className="text-neutral-700">Relevant coursework:</strong>{" "}
-            Software Modeling and Design, Software Quality Assurance,
+            Software Modeling &amp; Design, Software Quality Assurance,
             Introduction to Algorithms, Software Process
           </p>
         </div>

@@ -13,7 +13,7 @@ const Skills = () => {
         <div className="flex flex-col text-center md:text-left">
           <h2 className="mb-3 text-xl font-bold">Languages</h2>
           <div className="flex flex-wrap justify-center gap-2 md:justify-start">
-            {["HTML", "CSS", "JavaScript", "TypeScript", "Java", "Python", "PHP", "SQL"].map((skill) => (
+            {["JavaScript", "TypeScript", "PHP", "Python", "HTML", "CSS"].map((skill) => (
               <span key={skill} className="rounded-full bg-blue-100 px-3 py-1 text-sm font-medium text-blue-700">
                 {skill}
               </span>
@@ -21,9 +21,9 @@ const Skills = () => {
           </div>
         </div>
         <div className="flex flex-col text-center md:text-left">
-          <h2 className="mb-3 text-xl font-bold">Frameworks & Libraries</h2>
+          <h2 className="mb-3 text-xl font-bold">Frameworks & Tools</h2>
           <div className="flex flex-wrap justify-center gap-2 md:justify-start">
-            {["React", "Tailwind CSS", "Laravel"].map((skill) => (
+            {["React", "Next.js", "Laravel", "WordPress", "Sage", "Blade", "Git"].map((skill) => (
               <span key={skill} className="rounded-full bg-blue-100 px-3 py-1 text-sm font-medium text-blue-700">
                 {skill}
               </span>
@@ -31,9 +31,9 @@ const Skills = () => {
           </div>
         </div>
         <div className="flex flex-col text-center md:text-left">
-          <h2 className="mb-3 text-xl font-bold">Tools & Platforms</h2>
+          <h2 className="mb-3 text-xl font-bold">Databases</h2>
           <div className="flex flex-wrap justify-center gap-2 md:justify-start">
-            {["Git", "WordPress"].map((skill) => (
+            {["MySQL", "SQLite", "Postgres", "REST APIs"].map((skill) => (
               <span key={skill} className="rounded-full bg-blue-100 px-3 py-1 text-sm font-medium text-blue-700">
                 {skill}
               </span>

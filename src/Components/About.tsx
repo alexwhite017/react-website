@@ -17,13 +17,13 @@ const About = () => {
             <div className="flex flex-col gap-y-2">
               <h2 className="text-2xl font-bold text-white">About me</h2>
               <p className="max-w-prose text-gray-400 sm:leading-7">
-                I'm a Front End Software Engineer based in Birmingham, AL with a
-                focus on building clean, responsive web experiences. At Kinetic
-                Communications I develop custom WordPress themes and full-stack
-                applications using Laravel and PHP. Outside of work I build
-                projects with React and TypeScript. I'm a 2022 Auburn University
-                graduate who enjoys turning complex problems into intuitive
-                interfaces.
+                I'm a full-stack developer based in Birmingham, AL. At Kinetic
+                Communications I build custom WordPress themes and web apps
+                with Laravel, PHP, and React for agency clients, shipping to
+                deadlines alongside designers and project managers. Outside of
+                work I keep sharp with side projects in React, TypeScript, and
+                Next.js. I graduated from Auburn in 2022 with a degree in
+                Software Engineering.
               </p>
             </div>
             <ul className="grid grid-cols-1 gap-4 sm:grid-cols-2">

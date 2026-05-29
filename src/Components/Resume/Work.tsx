@@ -26,22 +26,21 @@ const Work = () => {
             className="grid grid-cols-1 gap-4"
           >
             <li className="text-neutral-500">
-              Build and maintain custom WordPress themes and full-stack web
-              applications using Laravel, React, and PHP.
+              Build and maintain custom WordPress themes and full-stack
+              applications for agency clients using Laravel, React, and PHP.
             </li>
             <li className="text-neutral-500">
-              Develop and configure Sage-based WordPress builds, leveraging
-              modern front-end tooling and Blade templating for scalable theme
-              architecture.
+              Develop Sage-based WordPress themes with Blade templating and
+              modern front-end build tooling.
             </li>
             <li className="text-neutral-500">
-              Collaborate with designers and project managers using Git version
-              control and agile development workflows to deliver projects on
-              time.
+              Diagnose and resolve production issues on live client sites,
+              including security scanner failures and hosting and CDN
+              configuration on managed WordPress hosts.
             </li>
             <li className="text-neutral-500">
-              Implement responsive, accessible front-end interfaces with HTML,
-              CSS, JavaScript, and modern frameworks to enhance user experience.
+              Work directly with designers and project managers in an agile
+              workflow, using Git to ship features on deadline.
             </li>
           </ol>
         </div>
@@ -64,16 +63,12 @@ const Work = () => {
             className="grid grid-cols-1 gap-4"
           >
             <li className="text-neutral-500">
-              Contributed to a variety of WordPress sites and custom themes
-              built with Laravel and React.
+              Contributed front-end and theme work to client WordPress sites
+              built with Kadence blocks.
             </li>
             <li className="text-neutral-500">
-              Gained hands-on experience with Git version control and agile
-              workflows to support efficient project delivery.
-            </li>
-            <li className="text-neutral-500">
-              Assisted in front-end development using HTML, CSS, JavaScript, and
-              modern frameworks to enhance UI functionality.
+              Learned the team's Git and agile workflow and began taking on
+              feature work independently.
             </li>
           </ol>
         </div>
@@ -96,12 +91,12 @@ const Work = () => {
             className="grid grid-cols-1 gap-4"
           >
             <li className="text-neutral-500">
-              Built new pages and UI components using HTML, CSS, and JavaScript
-              based on provided design specifications.
+              Built new pages and UI components in HTML, CSS, and JavaScript
+              from design specs.
             </li>
             <li className="text-neutral-500">
-              Investigated and resolved client-reported bugs in the company's
-              cloud-based construction management software.
+              Investigated and fixed client-reported bugs in a cloud-based
+              construction management platform.
             </li>
             <li className="text-neutral-500">
               Developed responsive mobile web interfaces to improve usability
