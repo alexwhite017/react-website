@@ -3,10 +3,8 @@ import PortfolioItem from "./PortfolioItem";
 import pokeapi from "/resources/PokeAPI-Home-Page.png";
 import discGolf from "/resources/Disc-Golf-Tracker-Home-Page.png";
 import planner from "/resources/Planner-App-Home-Page.png";
-
-// TODO: replace placeholders with real screenshots (Cocktail-App-Home-Page.png, Pokequiz-Home-Page.png)
-const cocktail = planner;
-const pokequiz = pokeapi;
+import cocktail from "/resources/homebar-home.png";
+import pokequiz from "/resources/pokequiz-home.png";
 
 const Portfolio = () => {
   return (
