@@ -13,11 +13,11 @@ const Education = () => {
         <div className="flex flex-col pb-8 text-center last:pb-0 md:text-left">
           <div className="flex flex-col pb-4">
             <h3 className="text-xl font-bold">
-              Bachelor's of Software Engineering
+              Bachelor of Software Engineering
             </h3>
             <div className="flex items-center justify-center gap-x-2 md:justify-start">
               <span className="flex-1 text-sm font-medium italic sm:flex-none">
-                Auburn University
+                Auburn University, Auburn, AL
               </span>
               <span>•</span>
               <span className="flex-1 text-sm sm:flex-none">
@@ -27,8 +27,8 @@ const Education = () => {
           </div>
           <p className="text-neutral-500">
             <strong className="text-neutral-700">Relevant coursework:</strong>{" "}
-            Software Modeling &amp; Design, Software Quality Assurance,
-            Introduction to Algorithms, Software Process
+            Software Modeling &amp; Design, Software Quality Assurance, Intro to
+            Algorithms, Software Process
           </p>
         </div>
       </div>

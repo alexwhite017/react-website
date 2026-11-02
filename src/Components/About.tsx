@@ -1,4 +1,4 @@
-import profile2 from "/resources/IMG_2817.jpeg";
+import profile2 from "/resources/AlexWhite-300x300.jpg";
 const About = () => {
   return (
     <div id="About" className="bg-neutral-800 px-4 py-16 md:py-24 lg:px-8">
@@ -17,13 +17,13 @@ const About = () => {
             <div className="flex flex-col gap-y-2">
               <h2 className="text-2xl font-bold text-white">About me</h2>
               <p className="max-w-prose text-gray-400 sm:leading-7">
-                I'm a full-stack developer based in Birmingham, AL. At Kinetic
-                Communications I build custom WordPress themes and web apps
-                with Laravel, PHP, and React for agency clients, shipping to
-                deadlines alongside designers and project managers. Outside of
-                work I keep sharp with side projects in React, TypeScript, and
-                Next.js. I graduated from Auburn in 2022 with a degree in
-                Software Engineering.
+                Full-stack web developer who builds custom WordPress themes and
+                Laravel and React applications, now maintaining client
+                WordPress and Webflow sites. Comfortable shipping on deadline
+                with designers and project managers. Outside of work I keep
+                sharp with side projects in React, TypeScript, and Next.js. I
+                graduated from Auburn in 2022 with a degree in Software
+                Engineering.
               </p>
             </div>
             <ul className="grid grid-cols-1 gap-4 sm:grid-cols-2">

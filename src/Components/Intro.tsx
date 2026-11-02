@@ -13,10 +13,14 @@ const Intro = () => {
           </h1>
           <p className="prose-sm sm:prose-base lg:prose-lg text-stone-200">
             Birmingham based{" "}
-            <strong className="text-stone-100">full-stack developer</strong>{" "}
+            <strong className="text-stone-100">
+              full-stack web developer
+            </strong>{" "}
             working with React, Laravel, and WordPress. Currently a{" "}
-            <strong className="text-stone-100">Junior Developer</strong> at{" "}
-            <strong className="text-stone-100">Kinetic Communications</strong>.
+            <strong className="text-stone-100">
+              Website Support Developer
+            </strong>{" "}
+            at <strong className="text-stone-100">Infomedia</strong>.
           </p>
           <div className="flex-col-2 flex gap-x-4">
             <SocialIcon url="https://github.com/alexwhite017" target="_blank" />

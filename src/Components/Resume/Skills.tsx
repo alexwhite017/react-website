@@ -23,7 +23,7 @@ const Skills = () => {
         <div className="flex flex-col text-center md:text-left">
           <h2 className="mb-3 text-xl font-bold">Frameworks & Tools</h2>
           <div className="flex flex-wrap justify-center gap-2 md:justify-start">
-            {["React", "Next.js", "Laravel", "WordPress", "Sage", "Blade", "Git"].map((skill) => (
+            {["React", "Next.js", "Laravel", "WordPress", "Sage", "Blade", "Webflow", "Git"].map((skill) => (
               <span key={skill} className="rounded-full bg-blue-100 px-3 py-1 text-sm font-medium text-blue-700">
                 {skill}
               </span>

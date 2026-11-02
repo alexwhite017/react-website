@@ -1,6 +1,6 @@
 const Work = () => {
   return (
-    <div className="grid grid-cols-1 gap-y-4 py-8 first:pt-0 last:pb-0  md:grid-cols-4">
+    <div className="grid grid-cols-1 gap-y-4 py-8 first:pt-0 last:pb-0 md:grid-cols-4">
       <div className="col-span-1 flex justify-center md:justify-start">
         <div className="relative h-max">
           <h2 className="text-xl font-bold uppercase text-blue-500">Work</h2>
@@ -10,14 +10,14 @@ const Work = () => {
       <div className="col-span-1 flex flex-col md:col-span-3">
         <div className="flex flex-col pb-8 text-center last:pb-0 md:text-left">
           <div className="flex flex-col pb-4">
-            <h2 className="text-xl font-bold">Kinetic Communications</h2>
+            <h2 className="text-xl font-bold">Infomedia, Birmingham, AL</h2>
             <div className="flex items-center justify-center gap-x-2 md:justify-start">
               <span className="flex-1 text-sm font-medium italic sm:flex-none">
-                Junior Developer
+                Website Support Developer
               </span>
               <span>•</span>
               <span className="flex-1 text-sm sm:flex-none">
-                November 2025 – Present
+                June 2026 – Present
               </span>
             </div>
           </div>
@@ -26,20 +26,57 @@ const Work = () => {
             className="grid grid-cols-1 gap-4"
           >
             <li className="text-neutral-500">
-              Build and maintain custom WordPress themes and full-stack
-              applications for agency clients using Laravel, React, and PHP.
+              Build and maintain custom WordPress themes in PHP, JavaScript,
+              and CSS, plus Webflow and Laravel sites.
             </li>
             <li className="text-neutral-500">
-              Develop Sage-based WordPress themes with Blade templating and
+              Work with around 300 clients across site takeovers, launches, and
+              ongoing fixes.
+            </li>
+            <li className="text-neutral-500">
+              Migrate sites from other hosts and platforms and configure DNS
+              records for live client domains.
+            </li>
+            <li className="text-neutral-500">
+              Implement and debug Google Analytics and Tag Manager tracking,
+              and turn client requests into technical fixes.
+            </li>
+          </ol>
+        </div>
+
+        <div className="flex flex-col pb-8 text-center last:pb-0 md:text-left">
+          <div className="flex flex-col pb-4">
+            <h2 className="text-xl font-bold">
+              Kinetic Communications, Birmingham, AL
+            </h2>
+            <div className="flex items-center justify-center gap-x-2 md:justify-start">
+              <span className="flex-1 text-sm font-medium italic sm:flex-none">
+                Junior Developer
+              </span>
+              <span>•</span>
+              <span className="flex-1 text-sm sm:flex-none">
+                November 2025 – May 2026
+              </span>
+            </div>
+          </div>
+          <ol
+            style={{ listStyleType: "circle" }}
+            className="grid grid-cols-1 gap-4"
+          >
+            <li className="text-neutral-500">
+              Built custom WordPress themes and full-stack apps for agency
+              clients using Laravel, React, and PHP.
+            </li>
+            <li className="text-neutral-500">
+              Developed Sage-based WordPress themes with Blade templating and
               modern front-end build tooling.
             </li>
             <li className="text-neutral-500">
-              Diagnose and resolve production issues on live client sites,
-              including security scanner failures and hosting and CDN
-              configuration on managed WordPress hosts.
+              Resolved production issues on live client sites, including
+              security scanner failures and CDN configuration.
             </li>
             <li className="text-neutral-500">
-              Work directly with designers and project managers in an agile
+              Worked directly with designers and project managers in an agile
               workflow, using Git to ship features on deadline.
             </li>
           </ol>
@@ -47,7 +84,9 @@ const Work = () => {
 
         <div className="flex flex-col pb-8 text-center last:pb-0 md:text-left">
           <div className="flex flex-col pb-4">
-            <h2 className="text-xl font-bold">Kinetic Communications</h2>
+            <h2 className="text-xl font-bold">
+              Kinetic Communications, Birmingham, AL
+            </h2>
             <div className="flex items-center justify-center gap-x-2 md:justify-start">
               <span className="flex-1 text-sm font-medium italic sm:flex-none">
                 Developer Intern
@@ -66,16 +105,12 @@ const Work = () => {
               Contributed front-end and theme work to client WordPress sites
               built with Kadence blocks.
             </li>
-            <li className="text-neutral-500">
-              Learned the team's Git and agile workflow and began taking on
-              feature work independently.
-            </li>
           </ol>
         </div>
 
         <div className="flex flex-col pb-8 text-center last:pb-0 md:text-left">
           <div className="flex flex-col pb-4">
-            <h2 className="text-xl font-bold">UDA Technologies</h2>
+            <h2 className="text-xl font-bold">UDA Technologies, Auburn, AL</h2>
             <div className="flex items-center justify-center gap-x-2 md:justify-start">
               <span className="flex-1 text-sm font-medium italic sm:flex-none">
                 Co-op Software Engineer
