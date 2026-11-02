@@ -10,7 +10,7 @@ const Work = () => {
       <div className="col-span-1 flex flex-col md:col-span-3">
         <div className="flex flex-col pb-8 text-center last:pb-0 md:text-left">
           <div className="flex flex-col pb-4">
-            <h2 className="text-xl font-bold">Infomedia, Birmingham, AL</h2>
+            <h2 className="text-xl font-bold">Infomedia</h2>
             <div className="flex items-center justify-center gap-x-2 md:justify-start">
               <span className="flex-1 text-sm font-medium italic sm:flex-none">
                 Website Support Developer
@@ -46,9 +46,7 @@ const Work = () => {
 
         <div className="flex flex-col pb-8 text-center last:pb-0 md:text-left">
           <div className="flex flex-col pb-4">
-            <h2 className="text-xl font-bold">
-              Kinetic Communications, Birmingham, AL
-            </h2>
+            <h2 className="text-xl font-bold">Kinetic Communications</h2>
             <div className="flex items-center justify-center gap-x-2 md:justify-start">
               <span className="flex-1 text-sm font-medium italic sm:flex-none">
                 Junior Developer
@@ -84,9 +82,7 @@ const Work = () => {
 
         <div className="flex flex-col pb-8 text-center last:pb-0 md:text-left">
           <div className="flex flex-col pb-4">
-            <h2 className="text-xl font-bold">
-              Kinetic Communications, Birmingham, AL
-            </h2>
+            <h2 className="text-xl font-bold">Kinetic Communications</h2>
             <div className="flex items-center justify-center gap-x-2 md:justify-start">
               <span className="flex-1 text-sm font-medium italic sm:flex-none">
                 Developer Intern
@@ -110,7 +106,7 @@ const Work = () => {
 
         <div className="flex flex-col pb-8 text-center last:pb-0 md:text-left">
           <div className="flex flex-col pb-4">
-            <h2 className="text-xl font-bold">UDA Technologies, Auburn, AL</h2>
+            <h2 className="text-xl font-bold">UDA Technologies</h2>
             <div className="flex items-center justify-center gap-x-2 md:justify-start">
               <span className="flex-1 text-sm font-medium italic sm:flex-none">
                 Co-op Software Engineer
